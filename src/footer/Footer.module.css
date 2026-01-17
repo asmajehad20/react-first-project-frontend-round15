@@ -65,3 +65,14 @@
   color: #1abc9c;     
   text-decoration: underline;
 }
+
+.footerBottom {
+  background-color: #1a252f; 
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 15px;
+}
+.footerBottom p{
+    margin-top: 15px;
+}

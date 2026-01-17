@@ -21,8 +21,19 @@
 }
 
 .card {
-    flex: 1 1 calc(33.333% - 40px);
+    flex: 1 0 calc(33% - 40px);
     border-radius: 8px;
+}
+@media (max-width: 992px) {
+  .card {
+    flex: 1 1 calc(50% - 40px);
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    flex: 1 1 100%;
+  }
 }
 
 .card img {

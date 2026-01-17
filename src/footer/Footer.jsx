@@ -4,6 +4,7 @@ import style from './Footer.module.css'
 export default function Footer() {
     console.log(style)
   return (
+    <>
     <footer className={style.footer}>
       <div className={style.container}>
         
@@ -33,5 +34,9 @@ export default function Footer() {
 
       </div>
     </footer>
+    <div className={style.footerBottom}>
+        <p>Copyright © Your Website 2023</p>
+    </div>
+    </>
   )
 }

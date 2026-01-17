@@ -15,6 +15,11 @@
   margin-top: 40px;
   margin-bottom: 20px;
 }
+@media (max-width: 992px){
+  .avatar{
+    width: 200px;
+  }
+}
 
 .title {
   font-size: 70px;
@@ -23,7 +28,16 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
-
+@media (max-width: 992px){
+  .title{
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px){
+  .title{
+    font-size: 30px;
+  }
+}
 .subtitle {
   font-size: 25px;
 }
