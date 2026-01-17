@@ -1,0 +1,45 @@
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #2c3e50;
+  text-transform: uppercase;
+}
+
+.form {
+  width: 750px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input, textarea {
+  margin-top: 10px;
+  width: 100%;
+  padding: 20px 0;
+  border: none; 
+  border-bottom: 1px solid #ccc;
+  font-size: 23px;
+}
+
+.submitButton {
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  border-radius: 8px;
+  background-color: #1abc9c; 
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+}
+
